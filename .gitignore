@@ -1,0 +1,5 @@
+__pycache__/
+.extracted_cache/
+extracted_frames/*
+!extracted_frames/index.html
+!extracted_frames/characters_index.json

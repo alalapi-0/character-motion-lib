@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>角色动画展示</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg-color: #f4f6fb;
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --accent: #5a67d8;
+      --accent-light: #c3dafe;
+      --text-color: #1a202c;
+      --muted: #4a5568;
+      font-family: "Inter", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #eef2ff 0%, #f8fafc 60%, #f4f6fb 100%);
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 48px;
+      box-sizing: border-box;
+    }
+
+    header {
+      width: min(1080px, 100%);
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      margin: 0 0 8px;
+      color: var(--accent);
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(1080px, 100%);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .character-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 16px;
+      border-radius: 16px;
+      background: var(--card-bg);
+      box-shadow: 0 12px 32px rgba(90, 103, 216, 0.15);
+      backdrop-filter: blur(6px);
+    }
+
+    .character-tab {
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      background: rgba(90, 103, 216, 0.12);
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .character-tab:hover,
+    .character-tab:focus-visible {
+      border-color: var(--accent-light);
+      background: rgba(90, 103, 216, 0.22);
+      outline: none;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(90, 103, 216, 0.25);
+    }
+
+    .character-tab.active {
+      background: var(--accent);
+      color: white;
+      box-shadow: 0 8px 22px rgba(90, 103, 216, 0.45);
+    }
+
+    section {
+      background: var(--card-bg);
+      border-radius: 20px;
+      padding: clamp(16px, 4vw, 24px);
+      box-shadow: 0 18px 40px rgba(148, 163, 184, 0.25);
+      backdrop-filter: blur(6px);
+    }
+
+    section h2 {
+      margin: 0 0 16px;
+      font-size: 1.3rem;
+      color: var(--accent);
+    }
+
+    .direction-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+    }
+
+    .direction-card {
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(237, 242, 255, 0.95) 100%);
+      border-radius: 16px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: inset 0 0 0 1px rgba(99, 102, 241, 0.12);
+    }
+
+    .direction-card h3 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+      color: var(--muted);
+      letter-spacing: 0.01em;
+    }
+
+    .direction-card img {
+      width: 96px;
+      height: 96px;
+      image-rendering: pixelated;
+    }
+
+    .playground-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      align-items: center;
+    }
+
+    #playground {
+      position: relative;
+      width: min(520px, 100%);
+      aspect-ratio: 4 / 3;
+      border-radius: 20px;
+      background: linear-gradient(160deg, rgba(129, 230, 217, 0.35) 0%, rgba(56, 189, 248, 0.2) 50%, rgba(165, 180, 252, 0.3) 100%);
+      border: 1px solid rgba(79, 70, 229, 0.25);
+      overflow: hidden;
+      box-shadow: inset 0 12px 32px rgba(15, 23, 42, 0.12);
+    }
+
+    #playground img {
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      left: 0;
+      top: 0;
+      transform-origin: center;
+      image-rendering: pixelated;
+      filter: drop-shadow(0 12px 18px rgba(15, 23, 42, 0.3));
+    }
+
+    .playground-info {
+      font-size: 0.95rem;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .playground-info strong {
+      color: var(--accent);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 16px 12px 32px;
+      }
+
+      section {
+        padding: 16px;
+      }
+
+      .character-tab {
+        flex: 1 1 calc(50% - 12px);
+        text-align: center;
+      }
+
+      .direction-card img,
+      #playground img {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>角色动作展示中心</h1>
+    <p>在顶部选择任意角色，预览四方向行走循环，并在下方活动场地中使用方向键驱动角色移动。</p>
+  </header>
+  <main>
+    <section aria-label="角色选择">
+      <h2>角色列表</h2>
+      <div class="character-tabs" id="characterTabs" role="tablist" aria-label="角色选择"></div>
+    </section>
+
+    <section aria-label="方向动作预览">
+      <h2>四向动作预览</h2>
+      <div class="direction-grid" id="directionGrid"></div>
+    </section>
+
+    <section aria-label="活动场景">
+      <h2>可控角色活动场</h2>
+      <div class="playground-wrapper">
+        <div id="playground" aria-live="polite">
+          <img id="playableCharacter" alt="可控制的角色" src="" />
+        </div>
+        <div class="playground-info">
+          <p><strong>操作说明：</strong></p>
+          <ul>
+            <li>按 <strong>↑ ↓ ← →</strong> 方向键移动角色并切换朝向。</li>
+            <li>按住按键即可持续移动，动画会在 3 帧之间循环。</li>
+            <li>松开按键时角色保持朝向并停留在中间帧。</li>
+          </ul>
+          <p>移动速度与动画节奏可在源码中调整，适合快速集成到游戏 Demo 或原型展示。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const DIRECTIONS = [
+      { key: "walk_down", label: "向下行走" },
+      { key: "walk_left", label: "向左行走" },
+      { key: "walk_right", label: "向右行走" },
+      { key: "walk_up", label: "向上行走" }
+    ];
+
+    const FRAME_INTERVAL = 200; // 毫秒
+    const MOVE_SPEED = 140; // 每秒移动像素
+
+    const tabsContainer = document.getElementById("characterTabs");
+    const previewContainer = document.getElementById("directionGrid");
+    const playground = document.getElementById("playground");
+    const playableCharacterImg = document.getElementById("playableCharacter");
+
+    let charactersData = {};
+    let currentCharacterId = null;
+    const directionTimers = new Map();
+    const activeKeys = {
+      ArrowUp: false,
+      ArrowDown: false,
+      ArrowLeft: false,
+      ArrowRight: false
+    };
+
+    const stageState = {
+      x: 0,
+      y: 0,
+      direction: "walk_down",
+      frameIndex: 0,
+      frameTime: 0,
+      isMoving: false
+    };
+
+    let lastFrameTime = null;
+
+    async function loadCharactersData() {
+      try {
+        const response = await fetch("characters_index.json", { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error("无法加载角色索引");
+        }
+        return await response.json();
+      } catch (error) {
+        return new Promise((resolve, reject) => {
+          const xhr = new XMLHttpRequest();
+          xhr.overrideMimeType("application/json");
+          xhr.open("GET", "characters_index.json", true);
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+              if (xhr.status === 200 || xhr.status === 0) {
+                try {
+                  resolve(JSON.parse(xhr.responseText));
+                } catch (err) {
+                  reject(err);
+                }
+              } else {
+                reject(error);
+              }
+            }
+          };
+          xhr.onerror = () => reject(error);
+          xhr.send(null);
+        });
+      }
+    }
+
+    function createCharacterTabs() {
+      tabsContainer.innerHTML = "";
+      const fragment = document.createDocumentFragment();
+      Object.keys(charactersData).sort().forEach((characterId, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "character-tab";
+        button.dataset.characterId = characterId;
+        button.textContent = characterId;
+        button.role = "tab";
+        button.setAttribute("aria-selected", "false");
+        button.addEventListener("click", () => selectCharacter(characterId));
+        fragment.appendChild(button);
+        if (index === 0) {
+          currentCharacterId = characterId;
+        }
+      });
+      tabsContainer.appendChild(fragment);
+      if (currentCharacterId) {
+        selectCharacter(currentCharacterId);
+      }
+    }
+
+    function selectCharacter(characterId) {
+      if (!charactersData[characterId]) return;
+      currentCharacterId = characterId;
+      highlightActiveTab();
+      renderDirectionPreview();
+      resetPlayableCharacter();
+    }
+
+    function highlightActiveTab() {
+      const buttons = tabsContainer.querySelectorAll(".character-tab");
+      buttons.forEach((button) => {
+        const isActive = button.dataset.characterId === currentCharacterId;
+        button.classList.toggle("active", isActive);
+        button.setAttribute("aria-selected", isActive ? "true" : "false");
+        if (isActive) {
+          button.setAttribute("tabindex", "0");
+        } else {
+          button.setAttribute("tabindex", "-1");
+        }
+      });
+    }
+
+    function renderDirectionPreview() {
+      clearDirectionTimers();
+      previewContainer.innerHTML = "";
+      const character = charactersData[currentCharacterId];
+      const basePath = `${character.character_id}/`;
+
+      DIRECTIONS.forEach(({ key, label }) => {
+        const card = document.createElement("article");
+        card.className = "direction-card";
+
+        const title = document.createElement("h3");
+        title.textContent = label;
+
+        const img = document.createElement("img");
+        img.alt = `${character.character_id} - ${label}`;
+
+        const frames = character.frames[key] || [];
+        if (frames.length > 0) {
+          let frameIndex = 0;
+          img.src = basePath + frames[frameIndex];
+          const intervalId = setInterval(() => {
+            frameIndex = (frameIndex + 1) % frames.length;
+            img.src = basePath + frames[frameIndex];
+          }, FRAME_INTERVAL);
+          directionTimers.set(key, intervalId);
+        } else {
+          img.alt += "（无可用帧）";
+        }
+
+        card.appendChild(title);
+        card.appendChild(img);
+        previewContainer.appendChild(card);
+      });
+    }
+
+    function clearDirectionTimers() {
+      directionTimers.forEach((intervalId) => clearInterval(intervalId));
+      directionTimers.clear();
+    }
+
+    function resetPlayableCharacter() {
+      const character = charactersData[currentCharacterId];
+      if (!character) return;
+      stageState.direction = "walk_down";
+      stageState.frameIndex = 0;
+      stageState.frameTime = 0;
+      stageState.isMoving = false;
+      const frames = character.frames[stageState.direction] || [];
+      const basePath = `${character.character_id}/`;
+      const initialIndex = Math.min(1, Math.max(frames.length - 1, 0));
+      const targetFrame = frames.length ? frames[initialIndex] : "";
+      if (targetFrame) {
+        const handleLoad = () => {
+          centerPlayableCharacter();
+          playableCharacterImg.removeEventListener("load", handleLoad);
+        };
+        playableCharacterImg.addEventListener("load", handleLoad);
+        playableCharacterImg.src = basePath + targetFrame;
+      }
+    }
+
+    function centerPlayableCharacter() {
+      const width = playableCharacterImg.naturalWidth || playableCharacterImg.width || 0;
+      const height = playableCharacterImg.naturalHeight || playableCharacterImg.height || 0;
+      stageState.x = Math.max((playground.clientWidth - width) / 2, 0);
+      stageState.y = Math.max((playground.clientHeight - height) / 2, 0);
+      applyCharacterPosition();
+    }
+
+    function applyCharacterPosition() {
+      playableCharacterImg.style.left = `${stageState.x}px`;
+      playableCharacterImg.style.top = `${stageState.y}px`;
+    }
+
+    function updatePlayableCharacter(delta) {
+      if (!currentCharacterId) return;
+      const character = charactersData[currentCharacterId];
+      if (!character) return;
+      const frames = character.frames[stageState.direction] || [];
+      if (frames.length === 0) return;
+
+      const horizontal = (activeKeys.ArrowRight ? 1 : 0) - (activeKeys.ArrowLeft ? 1 : 0);
+      const vertical = (activeKeys.ArrowDown ? 1 : 0) - (activeKeys.ArrowUp ? 1 : 0);
+      stageState.isMoving = horizontal !== 0 || vertical !== 0;
+
+      if (stageState.isMoving) {
+        const magnitude = Math.hypot(horizontal, vertical) || 1;
+        const distance = MOVE_SPEED * (delta / 1000);
+        stageState.x += (horizontal / magnitude) * distance;
+        stageState.y += (vertical / magnitude) * distance;
+        stageState.frameTime += delta;
+        if (stageState.frameTime >= FRAME_INTERVAL) {
+          stageState.frameTime -= FRAME_INTERVAL;
+          stageState.frameIndex = (stageState.frameIndex + 1) % frames.length;
+        }
+      } else {
+        stageState.frameIndex = frames.length > 1 ? 1 : 0;
+        stageState.frameTime = 0;
+      }
+
+      const imgWidth = playableCharacterImg.offsetWidth || playableCharacterImg.naturalWidth || 0;
+      const imgHeight = playableCharacterImg.offsetHeight || playableCharacterImg.naturalHeight || 0;
+      const maxX = Math.max(playground.clientWidth - imgWidth, 0);
+      const maxY = Math.max(playground.clientHeight - imgHeight, 0);
+      stageState.x = Math.min(Math.max(stageState.x, 0), maxX);
+      stageState.y = Math.min(Math.max(stageState.y, 0), maxY);
+      applyCharacterPosition();
+
+      const frameIndex = stageState.isMoving ? stageState.frameIndex : Math.min(1, frames.length - 1);
+      const basePath = `${character.character_id}/`;
+      playableCharacterImg.src = basePath + frames[frameIndex];
+    }
+
+    function handleKeyDown(event) {
+      if (!(event.key in activeKeys)) return;
+      event.preventDefault();
+      if (!activeKeys[event.key]) {
+        const directionMap = {
+          ArrowUp: "walk_up",
+          ArrowDown: "walk_down",
+          ArrowLeft: "walk_left",
+          ArrowRight: "walk_right"
+        };
+        stageState.direction = directionMap[event.key] || stageState.direction;
+        stageState.frameIndex = 0;
+        stageState.frameTime = 0;
+      }
+      activeKeys[event.key] = true;
+    }
+
+    function handleKeyUp(event) {
+      if (!(event.key in activeKeys)) return;
+      event.preventDefault();
+      activeKeys[event.key] = false;
+    }
+
+    function animationLoop(timestamp) {
+      if (lastFrameTime === null) {
+        lastFrameTime = timestamp;
+      }
+      const delta = timestamp - lastFrameTime;
+      lastFrameTime = timestamp;
+      updatePlayableCharacter(delta);
+      requestAnimationFrame(animationLoop);
+    }
+
+    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("keyup", handleKeyUp);
+
+    window.addEventListener("blur", () => {
+      Object.keys(activeKeys).forEach((key) => (activeKeys[key] = false));
+      stageState.isMoving = false;
+    });
+
+    loadCharactersData().then((data) => {
+      charactersData = data;
+      createCharacterTabs();
+      requestAnimationFrame(animationLoop);
+    }).catch((error) => {
+      console.error("加载角色索引失败：", error);
+      tabsContainer.textContent = "无法加载角色数据，请确认 characters_index.json 是否存在。";
+    });
+  </script>
+</body>
+</html>
