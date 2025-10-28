@@ -1,4 +1,4 @@
-"""角色动作图切分脚本。"""
+"""角色动作图批量切分脚本。"""
 
 from pathlib import Path
 from typing import List
@@ -75,10 +75,15 @@ if __name__ == "__main__":
     # 获取当前脚本所在项目根目录
     project_root: Path = Path(__file__).resolve().parent.parent
     assets_dir: Path = project_root / "assets"
-    output_dir: Path = project_root / "output"
+    output_dir: Path = project_root / "extracted_frames"
 
-    # 素材图路径
-    sheet_path: Path = assets_dir / "Actor1.png"
+    # 批量遍历 assets 目录下的所有 PNG 素材图
+    sheet_paths = sorted(assets_dir.glob("*.png"))
 
-    # 执行切分
-    extract_frames(sheet_path, output_dir)
+    if not sheet_paths:
+        print("未在 assets/ 目录中找到任何 PNG 素材图。")
+
+    for sheet_path in sheet_paths:
+        print(f"开始处理素材：{sheet_path.name}")
+        extract_frames(sheet_path, output_dir)
+        print(f"完成处理：{sheet_path.name}")
