@@ -1,0 +1,5634 @@
+{
+  "Actor1_character_01": {
+    "character_id": "Actor1_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_02": {
+    "character_id": "Actor1_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_03": {
+    "character_id": "Actor1_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_04": {
+    "character_id": "Actor1_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_05": {
+    "character_id": "Actor1_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_06": {
+    "character_id": "Actor1_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_07": {
+    "character_id": "Actor1_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor1_character_08": {
+    "character_id": "Actor1_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_01": {
+    "character_id": "Actor2_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_02": {
+    "character_id": "Actor2_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_03": {
+    "character_id": "Actor2_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_04": {
+    "character_id": "Actor2_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_05": {
+    "character_id": "Actor2_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_06": {
+    "character_id": "Actor2_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_07": {
+    "character_id": "Actor2_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor2_character_08": {
+    "character_id": "Actor2_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_01": {
+    "character_id": "Actor3_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_02": {
+    "character_id": "Actor3_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_03": {
+    "character_id": "Actor3_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_04": {
+    "character_id": "Actor3_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_05": {
+    "character_id": "Actor3_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_06": {
+    "character_id": "Actor3_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_07": {
+    "character_id": "Actor3_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor3_character_08": {
+    "character_id": "Actor3_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_01": {
+    "character_id": "Actor4_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_02": {
+    "character_id": "Actor4_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_03": {
+    "character_id": "Actor4_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_04": {
+    "character_id": "Actor4_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_05": {
+    "character_id": "Actor4_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_06": {
+    "character_id": "Actor4_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_07": {
+    "character_id": "Actor4_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor4_character_08": {
+    "character_id": "Actor4_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_01": {
+    "character_id": "Actor5_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_02": {
+    "character_id": "Actor5_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_03": {
+    "character_id": "Actor5_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_04": {
+    "character_id": "Actor5_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_05": {
+    "character_id": "Actor5_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_06": {
+    "character_id": "Actor5_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_07": {
+    "character_id": "Actor5_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Actor5_character_08": {
+    "character_id": "Actor5_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_01": {
+    "character_id": "Animal_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_02": {
+    "character_id": "Animal_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_03": {
+    "character_id": "Animal_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_04": {
+    "character_id": "Animal_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_05": {
+    "character_id": "Animal_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_06": {
+    "character_id": "Animal_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_07": {
+    "character_id": "Animal_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Animal_character_08": {
+    "character_id": "Animal_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_01": {
+    "character_id": "Evil_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_02": {
+    "character_id": "Evil_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_03": {
+    "character_id": "Evil_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_04": {
+    "character_id": "Evil_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_05": {
+    "character_id": "Evil_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_06": {
+    "character_id": "Evil_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_07": {
+    "character_id": "Evil_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Evil_character_08": {
+    "character_id": "Evil_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_01": {
+    "character_id": "Insane1_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_02": {
+    "character_id": "Insane1_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_03": {
+    "character_id": "Insane1_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_04": {
+    "character_id": "Insane1_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_05": {
+    "character_id": "Insane1_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_06": {
+    "character_id": "Insane1_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_07": {
+    "character_id": "Insane1_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane1_character_08": {
+    "character_id": "Insane1_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_01": {
+    "character_id": "Insane2_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_02": {
+    "character_id": "Insane2_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_03": {
+    "character_id": "Insane2_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_04": {
+    "character_id": "Insane2_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_05": {
+    "character_id": "Insane2_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_06": {
+    "character_id": "Insane2_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_07": {
+    "character_id": "Insane2_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Insane2_character_08": {
+    "character_id": "Insane2_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_01": {
+    "character_id": "Monster1_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_02": {
+    "character_id": "Monster1_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_03": {
+    "character_id": "Monster1_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_04": {
+    "character_id": "Monster1_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_05": {
+    "character_id": "Monster1_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_06": {
+    "character_id": "Monster1_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_07": {
+    "character_id": "Monster1_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster1_character_08": {
+    "character_id": "Monster1_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_01": {
+    "character_id": "Monster2_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_02": {
+    "character_id": "Monster2_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_03": {
+    "character_id": "Monster2_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_04": {
+    "character_id": "Monster2_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_05": {
+    "character_id": "Monster2_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_06": {
+    "character_id": "Monster2_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_07": {
+    "character_id": "Monster2_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster2_character_08": {
+    "character_id": "Monster2_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_01": {
+    "character_id": "Monster3_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_02": {
+    "character_id": "Monster3_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_03": {
+    "character_id": "Monster3_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_04": {
+    "character_id": "Monster3_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_05": {
+    "character_id": "Monster3_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_06": {
+    "character_id": "Monster3_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_07": {
+    "character_id": "Monster3_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Monster3_character_08": {
+    "character_id": "Monster3_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_01": {
+    "character_id": "People1_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_02": {
+    "character_id": "People1_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_03": {
+    "character_id": "People1_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_04": {
+    "character_id": "People1_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_05": {
+    "character_id": "People1_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_06": {
+    "character_id": "People1_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_07": {
+    "character_id": "People1_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People1_character_08": {
+    "character_id": "People1_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_01": {
+    "character_id": "People2_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_02": {
+    "character_id": "People2_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_03": {
+    "character_id": "People2_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_04": {
+    "character_id": "People2_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_05": {
+    "character_id": "People2_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_06": {
+    "character_id": "People2_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_07": {
+    "character_id": "People2_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People2_character_08": {
+    "character_id": "People2_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_01": {
+    "character_id": "People3_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_02": {
+    "character_id": "People3_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_03": {
+    "character_id": "People3_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_04": {
+    "character_id": "People3_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_05": {
+    "character_id": "People3_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_06": {
+    "character_id": "People3_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_07": {
+    "character_id": "People3_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People3_character_08": {
+    "character_id": "People3_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_01": {
+    "character_id": "People4_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_02": {
+    "character_id": "People4_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_03": {
+    "character_id": "People4_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_04": {
+    "character_id": "People4_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_05": {
+    "character_id": "People4_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_06": {
+    "character_id": "People4_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_07": {
+    "character_id": "People4_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People4_character_08": {
+    "character_id": "People4_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_01": {
+    "character_id": "People5_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_02": {
+    "character_id": "People5_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_03": {
+    "character_id": "People5_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_04": {
+    "character_id": "People5_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_05": {
+    "character_id": "People5_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_06": {
+    "character_id": "People5_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_07": {
+    "character_id": "People5_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People5_character_08": {
+    "character_id": "People5_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_01": {
+    "character_id": "People6_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_02": {
+    "character_id": "People6_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_03": {
+    "character_id": "People6_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_04": {
+    "character_id": "People6_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_05": {
+    "character_id": "People6_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_06": {
+    "character_id": "People6_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_07": {
+    "character_id": "People6_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People6_character_08": {
+    "character_id": "People6_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_01": {
+    "character_id": "People7_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_02": {
+    "character_id": "People7_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_03": {
+    "character_id": "People7_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_04": {
+    "character_id": "People7_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_05": {
+    "character_id": "People7_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_06": {
+    "character_id": "People7_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_07": {
+    "character_id": "People7_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People7_character_08": {
+    "character_id": "People7_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_01": {
+    "character_id": "People8_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_02": {
+    "character_id": "People8_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_03": {
+    "character_id": "People8_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_04": {
+    "character_id": "People8_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_05": {
+    "character_id": "People8_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_06": {
+    "character_id": "People8_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_07": {
+    "character_id": "People8_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "People8_character_08": {
+    "character_id": "People8_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_01": {
+    "character_id": "Riding_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_02": {
+    "character_id": "Riding_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_03": {
+    "character_id": "Riding_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_04": {
+    "character_id": "Riding_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_05": {
+    "character_id": "Riding_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_06": {
+    "character_id": "Riding_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_07": {
+    "character_id": "Riding_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Riding_character_08": {
+    "character_id": "Riding_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_01": {
+    "character_id": "Spiritual_character_01",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_02": {
+    "character_id": "Spiritual_character_02",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_03": {
+    "character_id": "Spiritual_character_03",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_04": {
+    "character_id": "Spiritual_character_04",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_05": {
+    "character_id": "Spiritual_character_05",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_06": {
+    "character_id": "Spiritual_character_06",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_07": {
+    "character_id": "Spiritual_character_07",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  },
+  "Spiritual_character_08": {
+    "character_id": "Spiritual_character_08",
+    "directions": [
+      "walk_down",
+      "walk_left",
+      "walk_right",
+      "walk_up"
+    ],
+    "frames_per_direction": 3,
+    "frames": {
+      "walk_down": [
+        "walk_down_0.png",
+        "walk_down_1.png",
+        "walk_down_2.png"
+      ],
+      "walk_left": [
+        "walk_left_0.png",
+        "walk_left_1.png",
+        "walk_left_2.png"
+      ],
+      "walk_right": [
+        "walk_right_0.png",
+        "walk_right_1.png",
+        "walk_right_2.png"
+      ],
+      "walk_up": [
+        "walk_up_0.png",
+        "walk_up_1.png",
+        "walk_up_2.png"
+      ]
+    }
+  }
+}
