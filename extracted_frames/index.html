@@ -54,10 +54,19 @@
       gap: 24px;
     }
 
-    .character-tabs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .character-select {
       padding: 16px;
       border-radius: 16px;
       background: var(--card-bg);
@@ -65,31 +74,62 @@
       backdrop-filter: blur(6px);
     }
 
-    .character-tab {
-      padding: 10px 18px;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      background: rgba(90, 103, 216, 0.12);
-      color: var(--accent);
-      font-size: 0.9rem;
+    .character-select .select-wrapper {
+      position: relative;
+      max-width: min(420px, 100%);
+    }
+
+    .character-select select {
+      width: 100%;
+      padding: 12px 44px 12px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(90, 103, 216, 0.2);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(237, 242, 255, 0.95) 100%);
+      color: var(--text-color);
+      font-size: 0.95rem;
       font-weight: 600;
+      line-height: 1.4;
+      appearance: none;
       cursor: pointer;
-      transition: all 0.2s ease;
+      box-shadow: 0 8px 24px rgba(90, 103, 216, 0.18);
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
     }
 
-    .character-tab:hover,
-    .character-tab:focus-visible {
-      border-color: var(--accent-light);
-      background: rgba(90, 103, 216, 0.22);
+    .character-select select:hover,
+    .character-select select:focus-visible {
+      border-color: rgba(90, 103, 216, 0.45);
+      box-shadow: 0 12px 28px rgba(90, 103, 216, 0.26);
       outline: none;
-      transform: translateY(-1px);
-      box-shadow: 0 6px 18px rgba(90, 103, 216, 0.25);
     }
 
-    .character-tab.active {
-      background: var(--accent);
-      color: white;
-      box-shadow: 0 8px 22px rgba(90, 103, 216, 0.45);
+    .character-select select.expanded {
+      max-height: min(340px, 60vh);
+      overflow-y: auto;
+    }
+
+    .character-select select:disabled {
+      cursor: not-allowed;
+      opacity: 0.65;
+      box-shadow: none;
+    }
+
+    .character-select .select-arrow {
+      position: absolute;
+      right: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--accent);
+      font-size: 1.1rem;
+      pointer-events: none;
+      transition: transform 0.2s ease;
+    }
+
+    .character-select.expanded .select-arrow {
+      transform: translateY(-50%) rotate(180deg);
+    }
+
+    .character-select select:disabled + .select-arrow {
+      opacity: 0.4;
     }
 
     section {
@@ -181,9 +221,16 @@
         padding: 16px;
       }
 
-      .character-tab {
-        flex: 1 1 calc(50% - 12px);
-        text-align: center;
+      .character-select {
+        padding: 12px;
+      }
+
+      .character-select .select-wrapper {
+        max-width: 100%;
+      }
+
+      .character-select select {
+        font-size: 0.9rem;
       }
 
       .direction-card img,
@@ -202,7 +249,13 @@
   <main>
     <section aria-label="角色选择">
       <h2>角色列表</h2>
-      <div class="character-tabs" id="characterTabs" role="tablist" aria-label="角色选择"></div>
+      <div class="character-select" id="characterSelectContainer">
+        <label class="visually-hidden" for="characterSelect">选择角色</label>
+        <div class="select-wrapper">
+          <select id="characterSelect" size="1" aria-label="角色选择"></select>
+          <span class="select-arrow" aria-hidden="true">▾</span>
+        </div>
+      </div>
     </section>
 
     <section aria-label="方向动作预览">
@@ -240,7 +293,8 @@
     const FRAME_INTERVAL = 200; // 毫秒
     const MOVE_SPEED = 140; // 每秒移动像素
 
-    const tabsContainer = document.getElementById("characterTabs");
+    const characterSelectContainer = document.getElementById("characterSelectContainer");
+    const characterSelect = document.getElementById("characterSelect");
     const previewContainer = document.getElementById("directionGrid");
     const playground = document.getElementById("playground");
     const playableCharacterImg = document.getElementById("playableCharacter");
@@ -297,49 +351,84 @@
       }
     }
 
-    function createCharacterTabs() {
-      tabsContainer.innerHTML = "";
+    const EXPANDED_SELECT_SIZE = 12;
+
+    function createCharacterSelect() {
+      if (!characterSelect) return;
+      characterSelect.innerHTML = "";
       const fragment = document.createDocumentFragment();
-      Object.keys(charactersData).sort().forEach((characterId, index) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "character-tab";
-        button.dataset.characterId = characterId;
-        button.textContent = characterId;
-        button.role = "tab";
-        button.setAttribute("aria-selected", "false");
-        button.addEventListener("click", () => selectCharacter(characterId));
-        fragment.appendChild(button);
-        if (index === 0) {
-          currentCharacterId = characterId;
-        }
+      const sortedIds = Object.keys(charactersData).sort();
+      const previousSelection = currentCharacterId;
+
+      if (sortedIds.length === 0) {
+        const placeholderOption = document.createElement("option");
+        placeholderOption.value = "";
+        placeholderOption.textContent = "暂无可用角色";
+        fragment.appendChild(placeholderOption);
+        characterSelect.appendChild(fragment);
+        characterSelect.disabled = true;
+        currentCharacterId = null;
+        collapseCharacterSelect();
+        return;
+      }
+
+      characterSelect.disabled = false;
+      sortedIds.forEach((characterId) => {
+        const option = document.createElement("option");
+        option.value = characterId;
+        option.textContent = characterId;
+        fragment.appendChild(option);
       });
-      tabsContainer.appendChild(fragment);
+      characterSelect.appendChild(fragment);
+      currentCharacterId = previousSelection && sortedIds.includes(previousSelection)
+        ? previousSelection
+        : sortedIds[0];
+      syncCharacterSelectValue();
+
       if (currentCharacterId) {
-        selectCharacter(currentCharacterId);
+        selectCharacter(currentCharacterId, { skipSelectSync: true });
       }
     }
 
-    function selectCharacter(characterId) {
+    function syncCharacterSelectValue() {
+      if (!characterSelect) return;
+      if (!currentCharacterId) return;
+      const options = Array.from(characterSelect.options || []);
+      const hasOption = options.some((option) => option.value === currentCharacterId);
+      if (hasOption) {
+        characterSelect.value = currentCharacterId;
+      }
+    }
+
+    function selectCharacter(characterId, { skipSelectSync = false } = {}) {
       if (!charactersData[characterId]) return;
       currentCharacterId = characterId;
-      highlightActiveTab();
+      if (!skipSelectSync) {
+        syncCharacterSelectValue();
+      }
       renderDirectionPreview();
       resetPlayableCharacter();
     }
 
-    function highlightActiveTab() {
-      const buttons = tabsContainer.querySelectorAll(".character-tab");
-      buttons.forEach((button) => {
-        const isActive = button.dataset.characterId === currentCharacterId;
-        button.classList.toggle("active", isActive);
-        button.setAttribute("aria-selected", isActive ? "true" : "false");
-        if (isActive) {
-          button.setAttribute("tabindex", "0");
-        } else {
-          button.setAttribute("tabindex", "-1");
-        }
-      });
+    function expandCharacterSelect() {
+      if (!characterSelect) return;
+      if (characterSelect.disabled) return;
+      const optionCount = characterSelect.options.length;
+      if (optionCount <= 1) return;
+      characterSelect.size = Math.min(EXPANDED_SELECT_SIZE, optionCount);
+      characterSelect.classList.add("expanded");
+      if (characterSelectContainer) {
+        characterSelectContainer.classList.add("expanded");
+      }
+    }
+
+    function collapseCharacterSelect() {
+      if (!characterSelect) return;
+      characterSelect.size = 1;
+      characterSelect.classList.remove("expanded");
+      if (characterSelectContainer) {
+        characterSelectContainer.classList.remove("expanded");
+      }
     }
 
     function renderDirectionPreview() {
@@ -496,13 +585,50 @@
       stageState.isMoving = false;
     });
 
+    if (characterSelect) {
+      characterSelect.addEventListener("focus", () => {
+        expandCharacterSelect();
+      });
+      characterSelect.addEventListener("pointerdown", () => {
+        if (characterSelect.size === 1) {
+          expandCharacterSelect();
+        }
+      });
+      characterSelect.addEventListener("input", (event) => {
+        selectCharacter(event.target.value);
+      });
+      characterSelect.addEventListener("change", () => {
+        requestAnimationFrame(() => {
+          collapseCharacterSelect();
+        });
+      });
+      characterSelect.addEventListener("blur", () => {
+        collapseCharacterSelect();
+      });
+      characterSelect.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          collapseCharacterSelect();
+          characterSelect.blur();
+        }
+      });
+      collapseCharacterSelect();
+    }
+
     loadCharactersData().then((data) => {
       charactersData = data;
-      createCharacterTabs();
+      createCharacterSelect();
       requestAnimationFrame(animationLoop);
     }).catch((error) => {
       console.error("加载角色索引失败：", error);
-      tabsContainer.textContent = "无法加载角色数据，请确认 characters_index.json 是否存在。";
+      if (characterSelect) {
+        characterSelect.innerHTML = "";
+        const option = document.createElement("option");
+        option.value = "";
+        option.textContent = "无法加载角色数据";
+        characterSelect.appendChild(option);
+        characterSelect.disabled = true;
+        collapseCharacterSelect();
+      }
     });
   </script>
 </body>
