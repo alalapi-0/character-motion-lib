@@ -6,7 +6,9 @@ from typing import List
 from PIL import Image
 
 # 定义常量：角色数量与每组帧信息
-CHARACTER_COUNT: int = 8
+GROUP_COLUMNS: int = 4  # 每行角色组数量
+GROUP_ROWS: int = 2  # 每列角色组数量
+CHARACTER_COUNT: int = GROUP_COLUMNS * GROUP_ROWS
 COLUMNS_PER_GROUP: int = 3
 ROWS_PER_GROUP: int = 4
 DIRECTIONS: List[str] = [
@@ -31,28 +33,37 @@ def extract_frames(sheet_path: Path, output_root: Path) -> None:
     sheet_width, sheet_height = sheet_image.size
 
     # 计算每组角色的宽高（使用相对比例，不写死具体像素）
-    group_width: float = sheet_width / CHARACTER_COUNT
-    group_height: float = sheet_height
+    group_width: float = sheet_width / GROUP_COLUMNS
+    group_height: float = sheet_height / GROUP_ROWS
 
     # 每帧的宽度和高度（同样使用相对比例）
     frame_width: float = group_width / COLUMNS_PER_GROUP
     frame_height: float = group_height / ROWS_PER_GROUP
 
+    # 获取素材名，用于输出目录前缀
+    material_name: str = sheet_path.stem
+
+    # 确保输出根目录存在
+    output_root.mkdir(parents=True, exist_ok=True)
+
     for character_index in range(CHARACTER_COUNT):
         character_name: str = f"character_{character_index + 1:02d}"
-        character_dir: Path = output_root / character_name
+        character_dir: Path = output_root / f"{material_name}_{character_name}"
         character_dir.mkdir(parents=True, exist_ok=True)
 
         # 计算当前角色组在整张图中的左上角坐标
-        group_left: float = character_index * group_width
+        group_row: int = character_index // GROUP_COLUMNS
+        group_column: int = character_index % GROUP_COLUMNS
+        group_left: float = group_column * group_width
+        group_top: float = group_row * group_height
 
         for row_index, direction in enumerate(DIRECTIONS):
             for column_index in range(COLUMNS_PER_GROUP):
                 # 计算当前帧在整张图中的边界坐标
                 left: int = round(group_left + column_index * frame_width)
-                upper: int = round(row_index * frame_height)
+                upper: int = round(group_top + row_index * frame_height)
                 right: int = round(group_left + (column_index + 1) * frame_width)
-                lower: int = round((row_index + 1) * frame_height)
+                lower: int = round(group_top + (row_index + 1) * frame_height)
 
                 frame_image: Image.Image = sheet_image.crop((left, upper, right, lower))
 
