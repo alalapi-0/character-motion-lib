@@ -29,7 +29,12 @@
    python scripts/extract_motion.py
    ```
 
-3. 脚本会自动遍历 `assets/` 目录下的所有 `.png` 文件，并按素材名输出至 `extracted_frames/` 目录。例如：
+3. 脚本会自动遍历 `assets/` 目录下的所有 `.png` 文件，并按素材名输出至 `extracted_frames/` 目录。每个角色目录包含：
+   - 四个方向的单帧 PNG 图像；
+   - `preview.gif`：按向下、向左、向右、向上的顺序展示三帧行走循环，可用于快速预览；
+   - `info.json`：记录角色 ID、方向顺序以及帧文件名，便于引擎或外部工具解析。
+
+   示例结构：
 
    ```
    extracted_frames/
@@ -38,11 +43,29 @@
    │   ├── walk_down_1.png
    │   ├── walk_down_2.png
    │   ├── walk_left_0.png
-   │   └── ...
+   │   ├── ...
+   │   ├── preview.gif
+   │   └── info.json
    ├── Actor1_character_02/
    │   └── ...
    └── Actor2_character_01/
        └── ...
+   ```
+
+   其中 `info.json` 的内容示例：
+
+   ```json
+   {
+     "character_id": "Actor1_character_01",
+     "directions": ["walk_down", "walk_left", "walk_right", "walk_up"],
+     "frames_per_direction": 3,
+     "frames": {
+       "walk_down": ["walk_down_0.png", "walk_down_1.png", "walk_down_2.png"],
+       "walk_left": ["walk_left_0.png", "walk_left_1.png", "walk_left_2.png"],
+       "walk_right": ["walk_right_0.png", "walk_right_1.png", "walk_right_2.png"],
+       "walk_up": ["walk_up_0.png", "walk_up_1.png", "walk_up_2.png"]
+     }
+   }
    ```
 
 ## 注意事项

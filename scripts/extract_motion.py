@@ -1,7 +1,8 @@
 """角色动作图批量切分脚本。"""
 
+import json
 from pathlib import Path
-from typing import List
+from typing import Dict, List
 
 from PIL import Image
 
@@ -57,7 +58,10 @@ def extract_frames(sheet_path: Path, output_root: Path) -> None:
         group_left: float = group_column * group_width
         group_top: float = group_row * group_height
 
+        frames_by_direction: Dict[str, List[str]] = {}
+
         for row_index, direction in enumerate(DIRECTIONS):
+            direction_frames: List[str] = []
             for column_index in range(COLUMNS_PER_GROUP):
                 # 计算当前帧在整张图中的边界坐标
                 left: int = round(group_left + column_index * frame_width)
@@ -67,8 +71,48 @@ def extract_frames(sheet_path: Path, output_root: Path) -> None:
 
                 frame_image: Image.Image = sheet_image.crop((left, upper, right, lower))
 
-                output_path: Path = character_dir / f"{direction}_{column_index}.png"
+                filename: str = f"{direction}_{column_index}.png"
+                output_path: Path = character_dir / filename
                 frame_image.save(output_path, "PNG")
+
+                direction_frames.append(filename)
+
+            frames_by_direction[direction] = direction_frames
+
+        # 生成 GIF 预览帧顺序：按方向依次展示 3 帧
+        preview_paths = [
+            character_dir / frame_name
+            for direction in DIRECTIONS
+            for frame_name in frames_by_direction[direction]
+        ]
+
+        if preview_paths:
+            preview_frames: List[Image.Image] = []
+            for frame_path in preview_paths:
+                with Image.open(frame_path) as frame:
+                    preview_frames.append(frame.convert("RGBA"))
+
+            first_frame, *other_frames = preview_frames
+            preview_path: Path = character_dir / "preview.gif"
+            first_frame.save(
+                preview_path,
+                save_all=True,
+                append_images=other_frames,
+                duration=200,
+                loop=0,
+                disposal=2,
+            )
+
+        # 输出 info.json 描述文件
+        info = {
+            "character_id": f"{material_name}_{character_name}",
+            "directions": DIRECTIONS,
+            "frames_per_direction": COLUMNS_PER_GROUP,
+            "frames": frames_by_direction,
+        }
+
+        info_path: Path = character_dir / "info.json"
+        info_path.write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":
