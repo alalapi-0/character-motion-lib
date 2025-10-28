@@ -114,6 +114,98 @@ def extract_frames(sheet_path: Path, output_root: Path) -> None:
         info_path: Path = character_dir / "info.json"
         info_path.write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
 
+        # 生成本地 HTML 预览页面，方便直接在浏览器查看四个方向的动画
+        html_path: Path = character_dir / "preview.html"
+        directions_json: str = json.dumps(DIRECTIONS, ensure_ascii=False)
+        frames_json: str = json.dumps(frames_by_direction, ensure_ascii=False)
+        html_content: str = f"""
+<!DOCTYPE html>
+<html lang=\"zh-CN\">
+<head>
+  <meta charset=\"UTF-8\">
+  <title>{info["character_id"]} 动作预览</title>
+  <style>
+    * {{ box-sizing: border-box; }}
+    body {{
+      margin: 0;
+      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }}
+    h1 {{
+      text-align: center;
+      margin: 0;
+    }}
+    .grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+    }}
+    .animation {{
+      background: #fff;
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }}
+    .animation h2 {{
+      margin: 0 0 12px;
+      font-size: 1rem;
+    }}
+    .animation img {{
+      max-width: 100%;
+      image-rendering: pixelated;
+    }}
+  </style>
+</head>
+<body>
+  <h1>{info["character_id"]}</h1>
+  <div class=\"grid\">
+"""
+
+        for direction in DIRECTIONS:
+            frames = frames_by_direction.get(direction, [])
+            first_frame = frames[0] if frames else ""
+            html_content += (
+                f"    <div class=\"animation\" id=\"animation-{direction}\">\n"
+                f"      <h2>{direction}</h2>\n"
+                f"      <img src=\"{first_frame}\" alt=\"{direction}\">\n"
+                f"    </div>\n"
+            )
+
+        html_content += f"""
+  </div>
+  <script>
+    const directions = {directions_json};
+    const framesData = {frames_json};
+    const interval = 200;
+
+    directions.forEach((direction) => {{
+      const container = document.getElementById(`animation-${{direction}}`);
+      if (!container) {{
+        return;
+      }}
+      const img = container.querySelector('img');
+      const frames = framesData[direction] || [];
+      if (!img || frames.length === 0) {{
+        return;
+      }}
+
+      let index = 0;
+      setInterval(() => {{
+        index = (index + 1) % frames.length;
+        img.src = frames[index];
+      }}, interval);
+    }});
+  </script>
+</body>
+</html>
+"""
+
+        html_path.write_text(html_content, encoding="utf-8")
+
 
 if __name__ == "__main__":
     # 获取当前脚本所在项目根目录
